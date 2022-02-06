@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.RequiresApi
+import androidx.navigation.fragment.findNavController
 import com.google.android.material.snackbar.Snackbar
 import com.mannonov.timermvp.R
 import com.mannonov.timermvp.databinding.FragmentHomeBinding
@@ -35,7 +36,7 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.btnStart.setOnClickListener {
-
+            findNavController().navigate(HomeFragmentDirections.actionHomeFragmentToTimerFragment(binding.tpHome.minute))
         }
     }
 

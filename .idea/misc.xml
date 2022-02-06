@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/PetProjects/Timer-MVP/app/src/main/res/drawable/process.xml" value="0.1" />
         <entry key="..\:/PetProjects/Timer-MVP/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/PetProjects/Timer-MVP/app/src/main/res/layout/fragment_home.xml" value="0.27447916666666666" />
         <entry key="..\:/PetProjects/Timer-MVP/app/src/main/res/layout/fragment_timer.xml" value="0.264" />
